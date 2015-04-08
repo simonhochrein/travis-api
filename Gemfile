@@ -10,6 +10,8 @@ gem 'travis-support',  github: 'travis-ci/travis-support'
 gem 'travis-config',   '~> 0.1.0'
 gem 'travis-sidekiqs', github: 'travis-ci/travis-sidekiqs', require: nil
 gem 'travis-yaml',     github: 'travis-ci/travis-yaml'
+gem 'travis-topaz',    github: 'travis-ci/travis-topaz-gem'
+
 gem 'mustermann',      github: 'rkh/mustermann'
 gem 'sinatra'
 gem 'sinatra-contrib', require: nil #github: 'sinatra/sinatra-contrib', require: nil

@@ -184,6 +184,10 @@ module Travis::Api
         if use_monitoring? and not console?
           setup_monitoring
         end
+
+        if Travis.config.topaz
+          Travis::Topaz.setup(Travis.config.topaz.url)
+        end
       end
 
       def self.setup_database_connections
