@@ -1,6 +1,6 @@
 daemon off;
 #Heroku dynos have at least 4 cores.
-worker_processes <%= ENV['NGINX_WORKERS'] || ENV['WEB_CONCURRENCY'] || 4 %>;
+worker_processes <%= (ENV['NGINX_WORKERS']) || (ENV['WEB_CONCURRENCY']) || 4 %>;
 
 events {
 	<% if `uname` != "Darwin\n" %>use epoll;<% end %>
