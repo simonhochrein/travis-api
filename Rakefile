@@ -6,6 +6,10 @@ namespace :db do
       sh "createdb travis_#{env}" rescue nil
       sh "psql -q travis_#{env} < #{Gem.loaded_specs['travis-migrations'].full_gem_path}/db/structure.sql"
     end
+    desc "Migrate the #{env} database"
+    task :migrate do
+      sh "psql -q travis_#{env} < #{Gem.loaded_specs['travis-migrations'].full_gem_path}/db/structure.sql"
+    end
   end
 end
 
