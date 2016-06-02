@@ -107,6 +107,18 @@ module Travis::API::V3
         get  :find
       end
 
+      resource :cache do
+        route '/cache/{cache.slug}'
+        get   :find
+        post  :delete
+      end
+
+      resource :caches do
+        route '/caches'
+        get   :find
+        post  :delete
+      end
+
       resource :crons do
         route '/crons'
         get  :for_repository
