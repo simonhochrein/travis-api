@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20"><linearGradient id="a" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><rect rx="3" width="98" height="20" fill="#555"/><rect rx="3" x="37" width="61" height="20" fill="#9f9f9f"/><path fill="#9f9f9f" d="M37 0h4v20h-4z"/><rect rx="3" width="98" height="20" fill="url(#a)"/><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11"><text x="19.5" y="15" fill="#010101" fill-opacity=".3">build</text><text x="19.5" y="14">build</text><text x="66.5" y="15" fill="#010101" fill-opacity=".3">unknown</text><text x="66.5" y="14">unknown</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="20">
+  <path d="M98,3C98,1.344 96.656,0 95,0L3,0C1.344,0 0,1.344 0,3L0,17C0,18.656 1.344,20 3,20L95,20C96.656,20 98,18.656 98,17L98,3Z" style="fill:rgb(52,73,94);"/>
+    <path d="M98,3C98,1.344 96.656,0 95,0L40,0C38.344,0 37,1.344 37,3L37,17C37,18.656 38.344,20 40,20L95,20C96.656,20 98,18.656 98,17L98,3Z" style="fill:rgb(127,140,141);"/>
+    <rect x="37" y="0" width="4" height="20" style="fill:rgb(127,140,141);fill-rule:nonzero;"/>
+    <path d="M98,3C98,1.344 96.656,0 95,0L3,0C1.344,0 0,1.344 0,3L0,17C0,18.656 1.344,20 3,20L95,20C96.656,20 98,18.656 98,17L98,3Z" style="fill:rgb(52,73,94);fill-opacity:0.0980392;"/>
+    <g>
+        <g transform="matrix(1,0,0,1,19.5,14)">
+            <text x="-13.353px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">build</text>
+        </g>
+        <g transform="matrix(1,0,0,1,66.5,14)">
+            <text x="-25.016px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">unknown</text>
+        </g>
+    </g>
+</svg>
