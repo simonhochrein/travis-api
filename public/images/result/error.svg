@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="76" height="20">
-  <path d="M76,3C76,1.344 74.656,0 73,0L3,0C1.344,0 0,1.344 0,3L0,17C0,18.656 1.344,20 3,20L73,20C74.656,20 76,18.656 76,17L76,3Z" style="fill:rgb(52,73,94);"/>
-    <path d="M76,3C76,1.344 74.656,0 73,0L40,0C38.344,0 37,1.344 37,3L37,17C37,18.656 38.344,20 40,20L73,20C74.656,20 76,18.656 76,17L76,3Z" style="fill:rgb(127,140,141);"/>
-    <rect x="37" y="0" width="4" height="20" style="fill:rgb(127,140,141);"/>
+  <path d="M97,3C97,1.344 95.656,0 94,0L3,0C1.344,0 0,1.344 0,3L0,17C0,18.656 1.344,20 3,20L94,20C95.656,20 97,18.656 97,17L97,3Z" style="fill:rgb(52,73,94);"/>
+    <path d="M97,3C97,1.344 95.656,0 94,0L40,0C38.344,0 37,1.344 37,3L37,17C37,18.656 38.344,20 40,20L94,20C95.656,20 97,18.656 97,17L97,3Z" style="fill:rgb(127,140,141);"/>
+    <rect x="37" y="0" width="4" height="20" style="fill:rgb(127,140,141);fill-rule:nonzero;"/>
+    <path d="M97,3C97,1.344 95.656,0 94,0L3,0C1.344,0 0,1.344 0,3L0,17C0,18.656 1.344,20 3,20L94,20C95.656,20 97,18.656 97,17L97,3Z" style="fill:rgb(52,73,94);fill-opacity:0.0980392;"/>
     <g>
-        <g transform="matrix(1,0,0,1,6.147,14)">
-            <text x="0px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">build</text>
+        <g transform="matrix(1,0,0,1,19.5,14)">
+            <text x="-13.353px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">build</text>
         </g>
-        <g transform="matrix(1,0,0,1,41.844,14)">
-            <text x="0px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">error</text>
+        <g transform="matrix(1,0,0,1,66,14)">
+            <text x="-24.003px" y="0px" style="font-family:'Verdana';font-size:11px;fill:white;">canceled</text>
         </g>
     </g>
 </svg>
